@@ -44,6 +44,7 @@ fun FeatureThatRequiresCameraPermission() {
             Button(onClick = { cameraPermissionState.launchPermissionRequest() }) {
                 Text("Request permission")
             }
+
         }
     }
 }
